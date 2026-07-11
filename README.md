@@ -113,10 +113,11 @@ const sumit = {
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=SumitKasaudhan&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=2ce6ff&icon_color=2ce6ff&text_color=c9d1d9&rank_icon=github" height="165" alt="GitHub Stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SumitKasaudhan&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=2ce6ff&text_color=c9d1d9&langs_count=6" height="165" alt="Top Languages"/>
+<img src="https://streak-stats.demolab.com?user=SumitKasaudhan&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=2ce6ff&ring=2ce6ff&fire=f97316&currStreakLabel=2ce6ff&dates=8b949e" height="180" alt="Streak Stats"/>
 
-<img src="https://streak-stats.demolab.com?user=SumitKasaudhan&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=2ce6ff&ring=2ce6ff&fire=f97316&currStreakLabel=2ce6ff&dates=8b949e" height="165" alt="Streak Stats"/>
+<br/><br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=SumitKasaudhan&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=6" alt="GitHub Trophies"/>
 
 </div>
 
