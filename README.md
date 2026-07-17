@@ -1,4 +1,3 @@
-cat > /mnt/user-data/outputs/README.md << 'ENDOFREADME'
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Sumit%20Kasaudhan&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Full-Stack%20%26%20AI%20SaaS%20Engineer&descAlignY=58&descSize=20" width="100%" />
@@ -170,7 +169,17 @@ Architecture:
 - 🎨 Migrated third-party skeleton lib → **custom shimmer system** (perf improvement)
 - 📊 Replaced all fake/hardcoded dashboard data with **live Supabase queries**
 
-**Stack:** `Next.js 15` `TypeScript` `Express` `Supabase` `Clerk` `Gemini 2.0` `Dodo Payments` `Recharts` `Vercel` `Render`
+**Stack:**
+
+![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Clerk](https://img.shields.io/badge/Clerk-6C47FF?style=flat-square&logo=clerk&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini_2.0-4285F4?style=flat-square&logo=google&logoColor=white)
+![Recharts](https://img.shields.io/badge/Recharts-FF6384?style=flat-square)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square)
 
 </details>
 
@@ -212,7 +221,16 @@ Upload PDF → OCR Engine → Section Extractor → Scoring Pipeline → AI Insi
 - 💾 **Redis caching** for parsed resume data — avoid re-processing on re-analysis
 - 🏗️ **CSS Modules only** — zero Tailwind, proving architectural constraint discipline
 
-**Stack:** `Next.js 15` `TypeScript` `Express` `BullMQ` `Redis` `Prisma` `Neon PostgreSQL` `Gemini AI` `OCR`
+**Stack:**
+
+![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![BullMQ](https://img.shields.io/badge/BullMQ-DD0031?style=flat-square)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Neon](https://img.shields.io/badge/Neon_PostgreSQL-00E5CC?style=flat-square)
+![Gemini](https://img.shields.io/badge/Gemini_AI-4285F4?style=flat-square&logo=google&logoColor=white)
 
 </details>
 
@@ -229,87 +247,61 @@ Upload PDF → OCR Engine → Section Extractor → Scoring Pipeline → AI Insi
 
 </div>
 
-<details>
-<summary><b>🖥️ Frontend Engineering</b></summary>
-<br/>
+### 🖥️ Frontend Engineering
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Recharts](https://img.shields.io/badge/Recharts-FF6384?style=for-the-badge)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
-| Technology | Proficiency | Notes |
-|---|---|---|
-| **Next.js 15** | ⭐⭐⭐⭐⭐ | App Router, SSR, ISR, middleware, layouts |
-| **React.js** | ⭐⭐⭐⭐⭐ | Hooks, Context, custom hook patterns |
-| **TypeScript** | ⭐⭐⭐⭐⭐ | Strict mode, generics, type guards |
-| **Tailwind CSS** | ⭐⭐⭐⭐⭐ | Utility-first, responsive, dark mode |
-| **CSS Modules** | ⭐⭐⭐⭐⭐ | Scoped styling, namespace discipline |
-| **Recharts / D3** | ⭐⭐⭐⭐☆ | Real-time data visualizations |
-| **Figma** | ⭐⭐⭐★☆ | UI mockups, design systems |
+### ⚙️ Backend & APIs
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![BullMQ](https://img.shields.io/badge/BullMQ-DD0031?style=for-the-badge)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white)
+![Socket.io](https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socket.io&logoColor=white)
 
-</details>
+### 🗄️ Databases & Storage
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Neon](https://img.shields.io/badge/Neon_PostgreSQL-00E5CC?style=for-the-badge)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
-<details>
-<summary><b>⚙️ Backend & APIs</b></summary>
-<br/>
+### 🤖 AI / ML Stack
+![Gemini](https://img.shields.io/badge/Gemini_2.0_Flash-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge)
+![Vercel AI SDK](https://img.shields.io/badge/Vercel_AI_SDK-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 
-| Technology | Proficiency | Notes |
-|---|---|---|
-| **Node.js + Express** | ⭐⭐⭐⭐⭐ | REST APIs, middleware, auth flows |
-| **TypeScript (backend)** | ⭐⭐⭐⭐⭐ | Typed controllers, service layers |
-| **BullMQ** | ⭐⭐⭐⭐☆ | Async job queues, retry logic, concurrency |
-| **Redis** | ⭐⭐⭐⭐☆ | Caching, session, rate limiting |
-| **Prisma ORM** | ⭐⭐⭐⭐☆ | Schema-first, migrations, relations |
-| **FastAPI** | ⭐⭐⭐★☆ | Python microservices, ML model serving |
-| **WebSockets** | ⭐⭐⭐★☆ | Real-time features |
+### ☁️ DevOps, Cloud & Infrastructure
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
-</details>
-
-<details>
-<summary><b>🗄️ Databases & Storage</b></summary>
-<br/>
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![Neon](https://img.shields.io/badge/Neon_PostgreSQL-00E5CC?style=flat-square)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-
-</details>
-
-<details>
-<summary><b>🤖 AI / ML Stack</b></summary>
-<br/>
-
-![Gemini 2.0](https://img.shields.io/badge/Gemini_2.0_Flash-4285F4?style=flat-square&logo=google&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain_(learning)-1C3C3C?style=flat-square)
-![Vercel AI SDK](https://img.shields.io/badge/Vercel_AI_SDK-000000?style=flat-square&logo=vercel&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-
-</details>
+### 🔐 Security & Performance Testing
+![k6](https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&logo=k6&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![OWASP](https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white)
 
 <details>
-<summary><b>☁️ DevOps, Cloud & Infrastructure</b></summary>
-<br/>
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes_(learning)-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-
-</details>
-
-<details>
-<summary><b>🔐 Security & Performance Testing</b></summary>
+<summary><b>🔐 Where each was applied</b></summary>
 <br/>
 
 | Tool/Technique | Applied Where |
@@ -367,6 +359,8 @@ Upload PDF → OCR Engine → Section Extractor → Scoring Pipeline → AI Insi
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SumitKasaudhan/SumitKasaudhan/output/github-contribution-grid-snake.svg" />
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/SumitKasaudhan/SumitKasaudhan/output/github-contribution-grid-snake.svg" />
 </picture>
+
+> ℹ️ The snake animation needs a one-time GitHub Actions workflow in your profile repo to generate the SVG. See setup note at the bottom of this file.
 
 </div>
 
@@ -514,5 +508,17 @@ Upload PDF → OCR Engine → Section Extractor → Scoring Pipeline → AI Insi
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" width="100%" />
 
 </div>
-ENDOFREADME
-echo "Done"
+
+<!--
+SETUP NOTES (delete this block once done):
+
+1. Replace "SumitKasaudhan" everywhere with your exact GitHub username (case-sensitive) if it differs.
+2. Profile README repo must be named exactly your username, e.g. github.com/SumitKasaudhan/SumitKasaudhan, and set to Public.
+3. The contribution "snake" animation needs a GitHub Actions workflow (Platane/snk) in that repo pushing to an "output" branch.
+   Quick setup:
+   - In your profile repo, add .github/workflows/snake.yml with the Platane/snk action.
+   - It auto-generates the SVGs used above on a schedule.
+4. github-readme-stats / streak-stats / activity-graph / trophy widgets are all live third-party services —
+   they render automatically once the username is correct and the repo/README is public. No extra setup needed.
+5. Typing SVG and capsule-render banners are also live/dynamic — nothing to configure.
+-->
