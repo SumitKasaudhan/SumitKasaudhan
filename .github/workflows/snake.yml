@@ -15,6 +15,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk@v3
         with:
@@ -27,137 +30,19 @@ jobs:
       - name: Generate trophy.svg
         env:
           GH_TOKEN: ${{ secrets.TROPHY_TOKEN }}
+          GH_USERNAME: SumitKasaudhan
+          OUT_DIR: dist
+        run: node .github/scripts/generate-trophy.js
+
+      - name: Verify trophy.svg was created
         run: |
-          set +e
-          mkdir -p dist
-          cat > generate-trophy.js << 'SCRIPT_EOF'
-          var https = require('https');
-          var fs = require('fs');
-          var username = 'SumitKasaudhan';
-          var token = process.env.GH_TOKEN || '';
-          var colors = { bg: '#1a1b27', title: '#fe428e', text: '#a9fef7', icon: '#f8d866', box: '#232333' };
-
-          function rank(value, thresholds) {
-            var tiers = ['C', 'B', 'A', 'AA', 'AAA', 'SSS'];
-            var idx = 0;
-            for (var i = 0; i < thresholds.length; i++) {
-              if (value >= thresholds[i]) idx = i + 1;
-            }
-            return tiers[Math.min(idx, tiers.length - 1)];
-          }
-
-          function buildSvg(stats) {
-            var boxW = 84, boxH = 84, gap = 12, startX = 20, startY = 44;
-            var width = startX * 2 + stats.length * boxW + (stats.length - 1) * gap;
-            var height = startY + boxH + 16;
-            var boxesSvg = '';
-            for (var i = 0; i < stats.length; i++) {
-              var s = stats[i];
-              var x = startX + i * (boxW + gap);
-              boxesSvg += '<g>' +
-                '<rect x="' + x + '" y="' + startY + '" width="' + boxW + '" height="' + boxH + '" rx="6" fill="' + colors.box + '" stroke="#2d2b45" stroke-width="1"/>' +
-                '<text x="' + (x + boxW / 2) + '" y="' + (startY + 20) + '" text-anchor="middle" font-size="10" fill="' + colors.text + '" font-family="Segoe UI, sans-serif">' + s.label + '</text>' +
-                '<text x="' + (x + boxW / 2) + '" y="' + (startY + 50) + '" text-anchor="middle" font-size="24" font-weight="700" fill="' + colors.icon + '" font-family="Segoe UI, sans-serif">' + s.rank + '</text>' +
-                '<text x="' + (x + boxW / 2) + '" y="' + (startY + 70) + '" text-anchor="middle" font-size="11" fill="' + colors.text + '" font-family="Segoe UI, sans-serif">' + s.value + '</text>' +
-                '</g>';
-            }
-            return '<svg width="' + width + '" height="' + height + '" viewBox="0 0 ' + width + ' ' + height + '" xmlns="http://www.w3.org/2000/svg">' +
-              '<rect width="' + width + '" height="' + height + '" rx="8" fill="' + colors.bg + '"/>' +
-              '<text x="20" y="26" font-size="15" font-weight="600" fill="' + colors.title + '" font-family="Segoe UI, sans-serif">' + username + ' GitHub trophies</text>' +
-              boxesSvg +
-              '</svg>';
-          }
-
-          function writeFallback(reason) {
-            if (reason) { console.error('Using fallback trophy, reason:', reason); }
-            var stats = [
-              { label: 'Stars', value: 0, rank: 'C' },
-              { label: 'Repos', value: 0, rank: 'C' },
-              { label: 'Followers', value: 0, rank: 'C' },
-              { label: 'Years', value: 0, rank: 'C' }
-            ];
-            fs.writeFileSync('dist/trophy.svg', buildSvg(stats));
-          }
-
-          process.on('uncaughtException', function (err) {
-            try { writeFallback(err && err.message); } catch (e) {}
-            process.exit(0);
-          });
-
-          function ghGet(path, cb) {
-            var options = {
-              hostname: 'api.github.com',
-              path: path,
-              headers: {
-                'User-Agent': 'trophy-script',
-                'Authorization': 'token ' + token,
-                'Accept': 'application/vnd.github+json'
-              }
-            };
-            var req = https.get(options, function (res) {
-              var data = '';
-              res.on('data', function (c) { data += c; });
-              res.on('end', function () {
-                var parsed = null;
-                try { parsed = JSON.parse(data); } catch (e) { parsed = null; }
-                cb(parsed);
-              });
-            });
-            req.on('error', function () { cb(null); });
-            req.setTimeout(15000, function () { req.destroy(); cb(null); });
-          }
-
-          try {
-            ghGet('/users/' + username, function (user) {
-              try {
-                ghGet('/users/' + username + '/repos?per_page=100', function (repos) {
-                  try {
-                    var totalStars = 0;
-                    if (Array.isArray(repos)) {
-                      for (var i = 0; i < repos.length; i++) {
-                        totalStars += (repos[i] && repos[i].stargazers_count) || 0;
-                      }
-                    }
-                    var publicRepos = (user && user.public_repos) || 0;
-                    var followers = (user && user.followers) || 0;
-                    var years = 0;
-                    if (user && user.created_at) {
-                      var created = new Date(user.created_at).getTime();
-                      if (!isNaN(created)) {
-                        years = Math.floor((Date.now() - created) / (365.25 * 24 * 3600 * 1000));
-                      }
-                    }
-                    var stats = [
-                      { label: 'Stars', value: totalStars, rank: rank(totalStars, [5, 15, 40, 100, 300]) },
-                      { label: 'Repos', value: publicRepos, rank: rank(publicRepos, [5, 15, 30, 60, 120]) },
-                      { label: 'Followers', value: followers, rank: rank(followers, [5, 15, 40, 100, 300]) },
-                      { label: 'Years', value: years, rank: rank(years, [1, 2, 4, 7, 10]) }
-                    ];
-                    fs.writeFileSync('dist/trophy.svg', buildSvg(stats));
-                    console.log('trophy.svg generated with real data');
-                  } catch (e) {
-                    writeFallback(e && e.message);
-                  }
-                });
-              } catch (e) {
-                writeFallback(e && e.message);
-              }
-            });
-          } catch (e) {
-            writeFallback(e && e.message);
-          }
-          SCRIPT_EOF
-          node generate-trophy.js
-          echo "node exit status: $?"
-
           if [ ! -s dist/trophy.svg ]; then
-            echo "trophy.svg still missing, writing plain bash fallback"
-            printf '%s' '<svg width="220" height="70" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="70" rx="8" fill="#1a1b27"/><text x="16" y="40" font-size="13" fill="#fe428e" font-family="sans-serif">Sumit Kasaudhan - trophies</text></svg>' > dist/trophy.svg
+            echo "::error::dist/trophy.svg missing or empty after generation step."
+            ls -la dist/ || true
+            exit 1
           fi
-
-          echo "final check:"
-          ls -la dist/ || true
-          exit 0
+          echo "trophy.svg OK — size: $(wc -c < dist/trophy.svg) bytes"
+          ls -la dist/
 
       - name: Push generated files to output branch
         uses: crazy-max/ghaction-github-pages@v4
