@@ -25,12 +25,108 @@ jobs:
             dist/github-contribution-grid-snake.gif?color_snake=#8E2DE2&color_dots=#161b22,#4A00E0,#8E2DE2,#a855f7,#c084fc
 
       - name: Generate trophy.svg
-        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
-        with:
-          username: SumitKasaudhan
-          file: dist/trophy.svg
-          theme: radical
-          token: ${{ secrets.TROPHY_TOKEN }}
+        env:
+          GH_TOKEN: ${{ secrets.TROPHY_TOKEN }}
+        run: |
+          mkdir -p dist
+          cat > generate-trophy.js << 'SCRIPT_EOF'
+          const https = require('https');
+          const username = 'SumitKasaudhan';
+          const token = process.env.GH_TOKEN;
+
+          function ghGet(path) {
+            return new Promise((resolve, reject) => {
+              const options = {
+                hostname: 'api.github.com',
+                path,
+                headers: {
+                  'User-Agent': 'trophy-script',
+                  'Authorization': `Bearer ${token}`,
+                  'Accept': 'application/vnd.github+json',
+                },
+              };
+              https.get(options, (res) => {
+                let data = '';
+                res.on('data', (c) => (data += c));
+                res.on('end', () => {
+                  try {
+                    resolve(JSON.parse(data));
+                  } catch (e) {
+                    reject(e);
+                  }
+                });
+              }).on('error', reject);
+            });
+          }
+
+          function rank(value, thresholds) {
+            const tiers = ['C', 'B', 'A', 'AA', 'AAA', 'SSS'];
+            let idx = 0;
+            for (let i = 0; i < thresholds.length; i++) {
+              if (value >= thresholds[i]) idx = i + 1;
+            }
+            return tiers[Math.min(idx, tiers.length - 1)];
+          }
+
+          async function main() {
+            const user = await ghGet(`/users/${username}`);
+            let repos = [];
+            let page = 1;
+            while (true) {
+              const batch = await ghGet(`/users/${username}/repos?per_page=100&page=${page}`);
+              if (!Array.isArray(batch) || batch.length === 0) break;
+              repos = repos.concat(batch);
+              if (batch.length < 100) break;
+              page++;
+            }
+            const totalStars = repos.reduce((s, r) => s + (r.stargazers_count || 0), 0);
+            const publicRepos = user.public_repos || 0;
+            const followers = user.followers || 0;
+            const accountYears = Math.floor(
+              (Date.now() - new Date(user.created_at).getTime()) / (365.25 * 24 * 3600 * 1000)
+            );
+
+            const stats = [
+              { label: 'Stars', value: totalStars, rank: rank(totalStars, [5, 15, 40, 100, 300]) },
+              { label: 'Repos', value: publicRepos, rank: rank(publicRepos, [5, 15, 30, 60, 120]) },
+              { label: 'Followers', value: followers, rank: rank(followers, [5, 15, 40, 100, 300]) },
+              { label: 'Years', value: accountYears, rank: rank(accountYears, [1, 2, 4, 7, 10]) },
+            ];
+
+            const colors = { bg: '#1a1b27', title: '#fe428e', text: '#a9fef7', icon: '#f8d866', box: '#232333' };
+            const boxW = 84, boxH = 84, gap = 12, startX = 20, startY = 44;
+            const width = startX * 2 + stats.length * boxW + (stats.length - 1) * gap;
+            const height = startY + boxH + 16;
+
+            let boxesSvg = '';
+            stats.forEach((s, i) => {
+              const x = startX + i * (boxW + gap);
+              boxesSvg += `
+              <g>
+                <rect x="${x}" y="${startY}" width="${boxW}" height="${boxH}" rx="6" fill="${colors.box}" stroke="#2d2b45" stroke-width="1"/>
+                <text x="${x + boxW / 2}" y="${startY + 20}" text-anchor="middle" font-size="10" fill="${colors.text}" font-family="Segoe UI, sans-serif">${s.label}</text>
+                <text x="${x + boxW / 2}" y="${startY + 50}" text-anchor="middle" font-size="24" font-weight="700" fill="${colors.icon}" font-family="Segoe UI, sans-serif">${s.rank}</text>
+                <text x="${x + boxW / 2}" y="${startY + 70}" text-anchor="middle" font-size="11" fill="${colors.text}" font-family="Segoe UI, sans-serif">${s.value}</text>
+              </g>`;
+            });
+
+            const svg = `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg">
+            <rect width="${width}" height="${height}" rx="8" fill="${colors.bg}"/>
+            <text x="20" y="26" font-size="15" font-weight="600" fill="${colors.title}" font-family="Segoe UI, sans-serif">${username}'s GitHub trophies</text>
+            ${boxesSvg}
+          </svg>`;
+
+            const fs = require('fs');
+            fs.writeFileSync('dist/trophy.svg', svg);
+            console.log('trophy.svg generated:', JSON.stringify(stats));
+          }
+
+          main().catch((e) => {
+            console.error(e);
+            process.exit(1);
+          });
+          SCRIPT_EOF
+          node generate-trophy.js
 
       - name: Push generated files to output branch
         uses: crazy-max/ghaction-github-pages@v4
