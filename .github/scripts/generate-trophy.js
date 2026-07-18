@@ -7,7 +7,17 @@ const token = process.env.GH_TOKEN || '';
 const outDir = process.env.OUT_DIR || 'dist';
 const outFile = path.join(outDir, 'trophy.svg');
 
-const colors = { bg: '#1a1b27', title: '#fe428e', text: '#a9fef7', icon: '#f8d866', box: '#232333' };
+const theme = { bg: '#1a1b27', title: '#fe428e', text: '#a9fef7', box: '#232333' };
+
+// tier -> color (grey -> bronze -> silver -> gold -> bright gold -> legendary purple)
+const tierColors = {
+  C: '#9ca3af',
+  B: '#cd7f32',
+  A: '#d7d9db',
+  AA: '#ffd700',
+  AAA: '#ffb800',
+  SSS: '#c084fc',
+};
 
 function rank(value, thresholds) {
   const tiers = ['C', 'B', 'A', 'AA', 'AAA', 'SSS'];
@@ -22,19 +32,37 @@ function buildSvg(stats) {
   const boxW = 84, boxH = 84, gap = 12, startX = 20, startY = 44;
   const width = startX * 2 + stats.length * boxW + (stats.length - 1) * gap;
   const height = startY + boxH + 16;
+
+  let defs = '';
   let boxesSvg = '';
+
   stats.forEach((s, i) => {
     const x = startX + i * (boxW + gap);
+    const color = tierColors[s.rank] || theme.text;
+    const isLegendary = s.rank === 'SSS';
+    let rankFill = color;
+
+    if (isLegendary) {
+      const gradId = `legendary-${i}`;
+      defs += `<linearGradient id="${gradId}" x1="0%" y1="0%" x2="100%" y2="100%">` +
+        `<stop offset="0%" stop-color="#8E2DE2"/>` +
+        `<stop offset="100%" stop-color="#c084fc"/>` +
+        `</linearGradient>`;
+      rankFill = `url(#${gradId})`;
+    }
+
     boxesSvg += `<g>` +
-      `<rect x="${x}" y="${startY}" width="${boxW}" height="${boxH}" rx="6" fill="${colors.box}" stroke="#2d2b45" stroke-width="1"/>` +
-      `<text x="${x + boxW / 2}" y="${startY + 20}" text-anchor="middle" font-size="10" fill="${colors.text}" font-family="Segoe UI, sans-serif">${s.label}</text>` +
-      `<text x="${x + boxW / 2}" y="${startY + 50}" text-anchor="middle" font-size="24" font-weight="700" fill="${colors.icon}" font-family="Segoe UI, sans-serif">${s.rank}</text>` +
-      `<text x="${x + boxW / 2}" y="${startY + 70}" text-anchor="middle" font-size="11" fill="${colors.text}" font-family="Segoe UI, sans-serif">${s.value}</text>` +
+      `<rect x="${x}" y="${startY}" width="${boxW}" height="${boxH}" rx="6" fill="${theme.box}" stroke="${color}" stroke-width="1.5" ${isLegendary ? `opacity="0.95"` : ''}/>` +
+      `<text x="${x + boxW / 2}" y="${startY + 20}" text-anchor="middle" font-size="10" fill="${theme.text}" font-family="Segoe UI, sans-serif">${s.label}</text>` +
+      `<text x="${x + boxW / 2}" y="${startY + 52}" text-anchor="middle" font-size="26" font-weight="800" fill="${rankFill}" font-family="Segoe UI, sans-serif">${s.rank}</text>` +
+      `<text x="${x + boxW / 2}" y="${startY + 70}" text-anchor="middle" font-size="11" fill="${theme.text}" font-family="Segoe UI, sans-serif">${s.value}</text>` +
       `</g>`;
   });
+
   return `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg">` +
-    `<rect width="${width}" height="${height}" rx="8" fill="${colors.bg}"/>` +
-    `<text x="20" y="26" font-size="15" font-weight="600" fill="${colors.title}" font-family="Segoe UI, sans-serif">${username} GitHub trophies</text>` +
+    `<defs>${defs}</defs>` +
+    `<rect width="${width}" height="${height}" rx="8" fill="${theme.bg}"/>` +
+    `<text x="20" y="26" font-size="15" font-weight="600" fill="${theme.title}" font-family="Segoe UI, sans-serif">${username} GitHub trophies</text>` +
     boxesSvg +
     `</svg>`;
 }
