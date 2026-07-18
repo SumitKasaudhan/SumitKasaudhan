@@ -24,6 +24,13 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/github-contribution-grid-snake.gif?color_snake=#8E2DE2&color_dots=#161b22,#4A00E0,#8E2DE2,#a855f7,#c084fc
 
+      - name: Generate trophy.svg
+        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+        with:
+          username: SumitKasaudhan
+          output_path: dist/trophy.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Push generated files to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
