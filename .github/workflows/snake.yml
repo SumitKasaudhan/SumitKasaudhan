@@ -29,6 +29,7 @@ jobs:
           GH_TOKEN: ${{ secrets.TROPHY_TOKEN }}
         run: |
           mkdir -p dist
+          sudo chown -R "$(id -u)":"$(id -g)" dist
           cat > generate-trophy.js << 'SCRIPT_EOF'
           var https = require('https');
           var fs = require('fs');
