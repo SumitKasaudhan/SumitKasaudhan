@@ -190,7 +190,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=SumitKasaudhan&theme=radical&no-frame=true&row=1&column=7&margin-w=8&margin-h=8" height="110"/>
+  <img src="https://github-profile-trophy-winning.vercel.app/?username=SumitKasaudhan&theme=radical&no-frame=true&row=1&column=7&margin-w=8&margin-h=8" height="110"/>
 </div>
 
 <div align="center">
