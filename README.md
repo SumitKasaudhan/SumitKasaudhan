@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Wave Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=200&section=header&text=Sumit%20Kasaudhan&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20AI%20Enthusiast%20%7C%20Building%20Sentinel%20AI&descAlignY=55&descSize=18"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=200&section=header&text=Sumit%20Kasaudhan&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20AI%20Enthusiast%20%7C%20Open%20to%20Work%20%F0%9F%9A%80&descAlignY=55&descSize=18"/>
 
 <!-- Typing Animation -->
 <a href="#">
@@ -181,8 +181,8 @@
 <h3 align="left">📊 GitHub Stats</h3>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SumitKasaudhan&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SumitKasaudhan&layout=compact&theme=radical&hide_border=true" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=SumitKasaudhan&show_icons=true&theme=radical&hide_border=true&cache_seconds=86400" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SumitKasaudhan&layout=compact&theme=radical&hide_border=true&cache_seconds=86400" height="165"/>
 </div>
 
 <div align="center">
@@ -190,7 +190,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=SumitKasaudhan&theme=radical&no-frame=true&row=1&column=7"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=SumitKasaudhan&theme=radical&no-frame=true&row=1&column=7&margin-w=8&margin-h=8" height="110"/>
 </div>
 
 <div align="center">
@@ -199,10 +199,14 @@
 
 ###
 
-<h3 align="left">🐍 Contribution Snake</h3>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=transparent&color=0:8E2DE2,100:4A00E0&height=60&section=header&text=🐍%20Live%20Contribution%20Snake&fontSize=22&fontColor=8E2DE2&animation=fadeIn"/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/SumitKasaudhan/SumitKasaudhan/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SumitKasaudhan/SumitKasaudhan/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SumitKasaudhan/SumitKasaudhan/output/github-contribution-grid-snake.svg">
+    <img alt="contribution snake animation" src="https://raw.githubusercontent.com/SumitKasaudhan/SumitKasaudhan/output/github-contribution-grid-snake.gif" width="100%"/>
+  </picture>
 </div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=100&section=footer"/>
