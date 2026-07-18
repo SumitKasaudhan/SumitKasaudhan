@@ -181,7 +181,7 @@
 <h3 align="left">📊 GitHub Stats</h3>
 
 <div align="center">
-  <img src="https://github-readme-stats-ochre-seven-73.vercel.app/api?username=SumitKasaudhan&show_icons=true&theme=radical&hide_border=true&cache_seconds=86400" height="165"/>
+  <img src="https://github-readme-stats-ochre-seven-73.vercel.app/api?username=SumitKasaudhan&show_icons=true&theme=radical&hide_border=true&hide_rank=true&cache_seconds=86400" height="165"/>
   <img src="https://github-readme-stats-ochre-seven-73.vercel.app/api/top-langs/?username=SumitKasaudhan&layout=compact&theme=radical&hide_border=true&cache_seconds=86400" height="165"/>
 </div>
 
