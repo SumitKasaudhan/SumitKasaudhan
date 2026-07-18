@@ -27,6 +27,9 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/github-contribution-grid-snake.gif?color_snake=#8E2DE2&color_dots=#161b22,#4A00E0,#8E2DE2,#a855f7,#c084fc
 
+      - name: Fix dist folder permissions
+        run: sudo chmod -R a+rwX dist
+
       - name: Generate trophy.svg
         env:
           GH_TOKEN: ${{ secrets.TROPHY_TOKEN }}
