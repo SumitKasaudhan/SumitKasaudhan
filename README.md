@@ -1,41 +1,52 @@
-<h5 align="center">🚀 💻 Turning Ideas into Real-World Web Experiences</h5>
+<div align="center">
+
+<!-- Animated Wave Banner -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=200&section=header&text=Sumit%20Kasaudhan&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20AI%20Enthusiast%20%7C%20Building%20Sentinel%20AI&descAlignY=55&descSize=18"/>
+
+<!-- Typing Animation -->
+<a href="#">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=8E2DE2&center=true&vCenter=true&width=650&lines=Full+Stack+Developer+%F0%9F%9A%80;Building+Sentinel+AI+(EASM+SaaS)+%F0%9F%94%90;React.js+%7C+Next.js+%7C+Node.js+%7C+MongoDB;Turning+Ideas+Into+Real+Products+%F0%9F%92%A1" alt="Typing SVG" />
+</a>
+
+</div>
 
 ###
 
 <h3 align="left">🧑‍💻 About Me</h3>
 
-###
-
-<p align="left">Hi, I'm Sumit 👋<br><br>🎓 Final-year MCA student and Frontend-focused Full-Stack Developer  <br>💻 Experienced in building scalable, responsive web applications using React.js, Next.js, and Tailwind CSS  <br>🎨 Passionate about crafting modern UI/UX with performance optimization  <br>🧩 Strong understanding of both frontend and backend (Node.js, MongoDB), enabling well-structured applications  <br>🚀 I enjoy transforming ideas into real-world, user-friendly products  <br>📚 Continuously learning and exploring new technologies in web development and AI integration</p>
-
-###
+- 🎓 Final-year MCA student (LPU) & Frontend-focused Full-Stack Developer
+- 🛡️ Built and deployed **Sentinel AI** — a production AI-powered EASM B2B SaaS with real paying subscribers → [sentinel-ai.me](https://sentinel-ai.me)
+- 💻 Experienced with **React.js, Next.js, Node.js, MongoDB, Tailwind CSS**
+- 🎨 Passionate about modern UI/UX and performance-optimized apps
+- 🧩 Solo-built and shipped multiple full-stack SaaS products end-to-end
+- 📚 Constantly exploring AI integration in web development
 
 <div align="center">
-  <img height="200" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
+  <img height="180" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"/>
 </div>
 
 ###
 
 <div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=SumitKasaudhan.SumitKasaudhan&"  />
+  <img src="https://komarev.com/ghpvc/?username=SumitKasaudhan&label=Profile%20Views&color=8E2DE2&style=for-the-badge"/>
+  <img src="https://img.shields.io/github/followers/SumitKasaudhan?label=Followers&style=for-the-badge&color=4A00E0"/>
 </div>
-
-###
 
 <div align="center">
   <a href="https://www.linkedin.com/in/sumit-kasaudhan-654401229/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="30" alt="linkedin"/>
   </a>
-  <a href="sumit979gupta@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo"  />
+  <a href="mailto:sumit979gupta@gmail.com" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="30" alt="gmail"/>
+  </a>
+  <a href="https://sentinel-ai.me" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Sentinel%20AI&logo=cloudflare&label=&color=F38020&logoColor=white&labelColor=&style=for-the-badge" height="30" alt="sentinel-ai"/>
   </a>
 </div>
 
 ###
 
-<h3 align="left">🛠 Language and tools</h3>
-
-###
+<h3 align="left">🛠 Language and Tools</h3>
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="40" alt="amazonwebservices logo"  />
@@ -167,13 +178,31 @@
 
 ###
 
-<h3 align="left">🔥   My Stats :</h3>
-
-###
+<h3 align="left">📊 GitHub Stats</h3>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=SumitKasaudhan&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SumitKasaudhan&theme=chartreuse-dark&area=true&hide_border=false&hide_title=false" height="150" alt="activity-graph graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=SumitKasaudhan&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SumitKasaudhan&layout=compact&theme=radical&hide_border=true" height="165"/>
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=SumitKasaudhan&theme=radical&hide_border=true&mode=daily" height="180"/>
+</div>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=SumitKasaudhan&theme=radical&no-frame=true&row=1&column=7"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SumitKasaudhan&theme=react-dark&area=true&hide_border=true" width="100%"/>
 </div>
 
 ###
+
+<h3 align="left">🐍 Contribution Snake</h3>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/SumitKasaudhan/SumitKasaudhan/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=100&section=footer"/>
