@@ -12,6 +12,13 @@
 
 ###
 
+<!-- Requested GIF -->
+<div align="center">
+  <img src="https://camo.githubusercontent.com/c52574a9590bc8351acdc61b16472052eaba85daffd3619c72e530532960e41c/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f76322f726573697a653a6669743a313336302f302a37513379765349765f7430696f4a2d5a2e676966" width="60%"/>
+</div>
+
+###
+
 <h3 align="left">🧑‍💻 About Me</h3>
 
 - 🎓 Final-year MCA student (LPU) & Frontend-focused Full-Stack Developer
