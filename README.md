@@ -21,12 +21,16 @@
 
 <h3 align="left">🧑‍💻 About Me</h3>
 
-- 🎓 Final-year MCA student (LPU) & Frontend-focused Full-Stack Developer
-- 🛡️ Built and deployed **Sentinel AI** — a production AI-powered EASM B2B SaaS with real paying subscribers → [sentinel-ai.me](https://sentinel-ai.me)
-- 💻 Experienced with **React.js, Next.js, Node.js, MongoDB, Tailwind CSS**
+- 🎓 MCA Graduate 2026 (LPU) & Software Developer
+- 💼 Internship experience at **Infosys Springboard** & **Graphura India Pvt Ltd.**
+- 🛡️ Built and deployed **Sentinel AI**, a production AI-powered EASM B2B SaaS with real paying subscribers → [sentinel-ai.me](https://sentinel-ai.me)
+- 💻 Experienced with **React.js, Next.js, JavaScript, Node.js, MongoDB, PostgreSQL, Tailwind CSS**
 - 🎨 Passionate about modern UI/UX and performance-optimized apps
 - 🧩 Solo-built and shipped multiple full-stack SaaS products end-to-end
 - 📚 Constantly exploring AI integration in web development
+- 🎯 Open to Software Developer, Web Developer and fresher roles
+
+📩 sumit979gupta@gmail.com | 🌐 [sumitkasaudhan.in](https://www.sumitkasaudhan.in) | 💼 [LinkedIn](https://www.linkedin.com/in/sumit-kasaudhan/)
 
 <div align="center">
   <img height="180" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"/>
