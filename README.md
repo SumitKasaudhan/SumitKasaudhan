@@ -179,22 +179,33 @@ An AI-powered **External Attack Surface Management (EASM)** B2B SaaS. It scans a
 <div align="center"><img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:0B3A8F,100:0D1117&height=40&section=header&text=TECH%20STACK&fontSize=16&fontColor=00D3F3&fontAlign=50&fontAlignY=55"/></div>
 
 <table width="100%">
+  <tr><td colspan="8"><b>Languages</b></td></tr>
+  <tr>
+    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=js&theme=dark" width="48" height="48" alt="JavaScript" title="JavaScript"/><br/><sub><b>JavaScript</b></sub></td>
+    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=py&theme=dark" width="48" height="48" alt="Python" title="Python"/><br/><sub><b>Python</b></sub></td>
+    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=cpp&theme=dark" width="48" height="48" alt="C++" title="C++"/><br/><sub><b>C++</b></sub></td>
+    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=c&theme=dark" width="48" height="48" alt="C" title="C"/><br/><sub><b>C</b></sub></td>
+    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=ts&theme=dark" width="48" height="48" alt="TypeScript" title="TypeScript"/><br/><sub><b>TypeScript</b></sub></td>
+    <td align="center" width="12.5%"><img src="https://img.shields.io/badge/SQL-0B3A8F?style=for-the-badge&labelColor=0D1117&logo=postgresql&logoColor=00D3F3" height="28" alt="SQL" title="SQL"/></td>
+    <td width="12.5%"></td>
+    <td width="12.5%"></td>
+  </tr>
   <tr><td colspan="8"><b>Frontend</b></td></tr>
   <tr>
     <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=react&theme=dark" width="48" height="48" alt="React" title="React"/><br/><sub><b>React</b></sub></td>
     <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=nextjs&theme=dark" width="48" height="48" alt="Next.js" title="Next.js"/><br/><sub><b>Next.js</b></sub></td>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=ts&theme=dark" width="48" height="48" alt="TypeScript" title="TypeScript"/><br/><sub><b>TypeScript</b></sub></td>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=js&theme=dark" width="48" height="48" alt="JavaScript" title="JavaScript"/><br/><sub><b>JavaScript</b></sub></td>
     <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=html&theme=dark" width="48" height="48" alt="HTML5" title="HTML5"/><br/><sub><b>HTML5</b></sub></td>
     <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=css&theme=dark" width="48" height="48" alt="CSS3" title="CSS3"/><br/><sub><b>CSS3</b></sub></td>
     <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=tailwind&theme=dark" width="48" height="48" alt="Tailwind" title="Tailwind"/><br/><sub><b>Tailwind</b></sub></td>
+    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=bootstrap&theme=dark" width="48" height="48" alt="Bootstrap" title="Bootstrap"/><br/><sub><b>Bootstrap</b></sub></td>
+    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=framer&theme=dark" width="48" height="48" alt="Framer Motion" title="Framer Motion"/><br/><sub><b>Framer Motion</b></sub></td>
     <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=vite&theme=dark" width="48" height="48" alt="Vite" title="Vite"/><br/><sub><b>Vite</b></sub></td>
   </tr>
   <tr><td colspan="8"><b>Backend</b></td></tr>
   <tr>
     <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="48" height="48" alt="Node.js" title="Node.js"/><br/><sub><b>Node.js</b></sub></td>
     <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=express&theme=dark" width="48" height="48" alt="Express" title="Express"/><br/><sub><b>Express</b></sub></td>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=py&theme=dark" width="48" height="48" alt="Python" title="Python"/><br/><sub><b>Python</b></sub></td>
+    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=django&theme=dark" width="48" height="48" alt="Django" title="Django"/><br/><sub><b>Django</b></sub></td>
     <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=fastapi&theme=dark" width="48" height="48" alt="FastAPI" title="FastAPI"/><br/><sub><b>FastAPI</b></sub></td>
     <td width="12.5%"></td>
     <td width="12.5%"></td>
@@ -212,16 +223,27 @@ An AI-powered **External Attack Surface Management (EASM)** B2B SaaS. It scans a
     <td width="12.5%"></td>
     <td width="12.5%"></td>
   </tr>
+  <tr><td colspan="8"><b>AI, ML and Testing</b></td></tr>
+  <tr>
+    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=tensorflow&theme=dark" width="48" height="48" alt="TensorFlow" title="TensorFlow"/><br/><sub><b>TensorFlow</b></sub></td>
+    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=opencv&theme=dark" width="48" height="48" alt="OpenCV" title="OpenCV"/><br/><sub><b>OpenCV</b></sub></td>
+    <td align="center" width="12.5%"><img src="https://img.shields.io/badge/Gemini%20AI-0B3A8F?style=for-the-badge&labelColor=0D1117&logo=googlegemini&logoColor=00D3F3" height="28" alt="Google Gemini AI" title="Google Gemini AI"/></td>
+    <td align="center" width="12.5%"><img src="https://img.shields.io/badge/k6-0B3A8F?style=for-the-badge&labelColor=0D1117&logo=k6&logoColor=00D3F3" height="28" alt="k6 Load Testing" title="k6 Load Testing"/></td>
+    <td align="center" width="12.5%"><img src="https://img.shields.io/badge/Unit%20Testing-0B3A8F?style=for-the-badge&labelColor=0D1117" height="28" alt="Unit Testing" title="Unit Testing"/></td>
+    <td width="12.5%"></td>
+    <td width="12.5%"></td>
+    <td width="12.5%"></td>
+  </tr>
   <tr><td colspan="8"><b>Cloud and DevOps</b></td></tr>
   <tr>
     <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=docker&theme=dark" width="48" height="48" alt="Docker" title="Docker"/><br/><sub><b>Docker</b></sub></td>
     <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=aws&theme=dark" width="48" height="48" alt="AWS" title="AWS"/><br/><sub><b>AWS</b></sub></td>
     <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=cloudflare&theme=dark" width="48" height="48" alt="Cloudflare" title="Cloudflare"/><br/><sub><b>Cloudflare</b></sub></td>
     <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=vercel&theme=dark" width="48" height="48" alt="Vercel" title="Vercel"/><br/><sub><b>Vercel</b></sub></td>
+    <td align="center" width="12.5%"><img src="https://img.shields.io/badge/Render-0B3A8F?style=for-the-badge&labelColor=0D1117&logo=render&logoColor=00D3F3" height="28" alt="Render" title="Render"/></td>
+    <td align="center" width="12.5%"><img src="https://img.shields.io/badge/CI%2FCD-0B3A8F?style=for-the-badge&labelColor=0D1117&logo=githubactions&logoColor=00D3F3" height="28" alt="CI/CD" title="CI/CD"/></td>
     <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=git&theme=dark" width="48" height="48" alt="Git" title="Git"/><br/><sub><b>Git</b></sub></td>
     <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=github&theme=dark" width="48" height="48" alt="GitHub" title="GitHub"/><br/><sub><b>GitHub</b></sub></td>
-    <td width="12.5%"></td>
-    <td width="12.5%"></td>
   </tr>
   <tr><td colspan="8"><b>Tools</b></td></tr>
   <tr>
@@ -238,6 +260,42 @@ An AI-powered **External Attack Surface Management (EASM)** B2B SaaS. It scans a
 
 <br/>
 
+<div align="center">
+
+**Security, Auth and Architecture**
+
+<img src="https://img.shields.io/badge/JWT-0B3A8F?style=for-the-badge&labelColor=0D1117&logo=jsonwebtokens&logoColor=00D3F3"/>
+<img src="https://img.shields.io/badge/OAuth%202.0-0B3A8F?style=for-the-badge&labelColor=0D1117&logo=auth0&logoColor=00D3F3"/>
+<img src="https://img.shields.io/badge/Clerk-0B3A8F?style=for-the-badge&labelColor=0D1117&logo=clerk&logoColor=00D3F3"/>
+<img src="https://img.shields.io/badge/RSA-0B3A8F?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/REST%20APIs-0B3A8F?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/Microservices-0B3A8F?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/Database%20Indexing-0B3A8F?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/Responsive%20Design-0B3A8F?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/Web%20Performance-0B3A8F?style=for-the-badge&labelColor=0D1117"/>
+
+<br/><br/>
+
+**Core CS**
+
+<img src="https://img.shields.io/badge/OOP-155DFC?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/System%20Design-155DFC?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/DBMS-155DFC?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/Operating%20Systems-155DFC?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/Computer%20Networks-155DFC?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/SDLC-155DFC?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/Debugging-155DFC?style=for-the-badge&labelColor=0D1117"/>
+
+<br/><br/>
+
+**Soft Skills**
+
+<sub>Communication &nbsp;|&nbsp; Teamwork &nbsp;|&nbsp; Problem Solving &nbsp;|&nbsp; Adaptability &nbsp;|&nbsp; Time Management &nbsp;|&nbsp; Ownership &nbsp;|&nbsp; Attention to Detail &nbsp;|&nbsp; Critical Thinking</sub>
+
+</div>
+
+<br/>
+
 <div align="center"><img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:0B3A8F,100:0D1117&height=40&section=header&text=GITHUB%20STATS&fontSize=16&fontColor=00D3F3&fontAlign=50&fontAlignY=55"/></div>
 
 <div align="center">
@@ -250,6 +308,10 @@ An AI-powered **External Attack Surface Management (EASM)** B2B SaaS. It scans a
 <div align="center"><img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:0B3A8F,100:0D1117&height=40&section=header&text=CONTRIBUTIONS&fontSize=16&fontColor=00D3F3&fontAlign=50&fontAlignY=55"/></div>
 
 <div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SumitKasaudhan&bg_color=0D1117&color=00D3F3&line=155DFC&point=FFFFFF&area=true&area_color=0B3A8F&hide_border=true&radius=8&title_color=00D3F3" width="100%" alt="GitHub contribution activity graph"/>
+
+<br/><br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SumitKasaudhan/SumitKasaudhan/output/github-contribution-grid-snake-dark.svg">
