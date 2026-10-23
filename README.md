@@ -1,223 +1,181 @@
 <div align="center">
 
-<!-- Animated Wave Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=200&section=header&text=Sumit%20Kasaudhan&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20AI%20Enthusiast%20%7C%20Open%20to%20Work%20%F0%9F%9A%80&descAlignY=55&descSize=18"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0F1E,55:0B3A8F,100:00B8DB&height=220&section=header&text=Sumit%20Kasaudhan&fontSize=48&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=Full%20Stack%20Developer%20%7C%20AI%20Product%20Builder&descSize=18&descAlignY=58&descColor=C9D1D9"/>
 
-<!-- Typing Animation -->
-<a href="#">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=8E2DE2&center=true&vCenter=true&width=650&lines=Full+Stack+Developer+%F0%9F%9A%80;Building+Sentinel+AI+(EASM+SaaS)+%F0%9F%94%90;React.js+%7C+Next.js+%7C+Node.js+%7C+MongoDB;Turning+Ideas+Into+Real+Products+%F0%9F%92%A1" alt="Typing SVG" />
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=900&color=00D3F3&center=true&vCenter=true&width=700&height=40&lines=Building+Sentinel+AI+%7C+Production+EASM+SaaS;React+%7C+Next.js+%7C+Node.js+%7C+PostgreSQL;Solo+builder.+Shipping+real+products.;Open+to+Software+%2F+Web+Developer+roles" alt="Typing SVG" />
+
+<br/><br/>
+
+<a href="https://sentinel-ai.me"><img src="https://img.shields.io/badge/SENTINEL%20AI-LIVE-00D3F3?style=for-the-badge&labelColor=0D1117&logo=cloudflare&logoColor=00D3F3" height="32"/></a>
+<a href="https://www.sumitkasaudhan.in"><img src="https://img.shields.io/badge/PORTFOLIO-sumitkasaudhan.in-155DFC?style=for-the-badge&labelColor=0D1117&logo=googlechrome&logoColor=155DFC" height="32"/></a>
+<a href="https://www.linkedin.com/in/sumit-kasaudhan-654401229/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&labelColor=0D1117&logo=linkedin&logoColor=0A66C2" height="32"/></a>
+<a href="mailto:sumit979gupta@gmail.com"><img src="https://img.shields.io/badge/EMAIL-GET%20IN%20TOUCH-00B8DB?style=for-the-badge&labelColor=0D1117&logo=gmail&logoColor=00B8DB" height="32"/></a>
 
 </div>
 
-###
+<br/>
 
-<!-- Requested GIF -->
-<div align="center">
-  <img src="https://camo.githubusercontent.com/c52574a9590bc8351acdc61b16472052eaba85daffd3619c72e530532960e41c/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f76322f726573697a653a6669743a313336302f302a37513379765349765f7430696f4a2d5a2e676966" width="320"/>
-</div>
+> **I design, build and ship full-stack products end-to-end.** From database schema to payments to AI features, I've taken a SaaS from zero to production with paying subscribers, solo.
 
-###
+<br/>
 
-<h3 align="left">🧑‍💻 About Me</h3>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:155DFC&height=34&section=header&text=ABOUT%20ME&fontSize=15&fontColor=00D3F3&fontAlign=4&fontAlignY=55"/>
 
-- 🎓 MCA Graduate 2026 (LPU) & Software Developer
-- 💼 Internship experience at **Infosys Springboard** & **Graphura India Pvt Ltd.**
-- 🛡️ Built and deployed **Sentinel AI**, a production AI-powered EASM B2B SaaS with real paying subscribers → [sentinel-ai.me](https://sentinel-ai.me)
-- 💻 Experienced with **React.js, Next.js, JavaScript, Node.js, MongoDB, PostgreSQL, Tailwind CSS**
-- 🎨 Passionate about modern UI/UX and performance-optimized apps
-- 🧩 Solo-built and shipped multiple full-stack SaaS products end-to-end
-- 📚 Constantly exploring AI integration in web development
-- 🎯 Open to Software Developer, Web Developer and fresher roles
+<table>
+  <tr>
+    <td width="170"><b>Role</b></td>
+    <td>Full Stack Developer, building AI-powered SaaS products</td>
+  </tr>
+  <tr>
+    <td><b>Education</b></td>
+    <td>MCA (2024 to 2026), Lovely Professional University</td>
+  </tr>
+  <tr>
+    <td><b>Experience</b></td>
+    <td>Frontend Developer Intern at Graphura India &nbsp;|&nbsp; AI Web Developer Intern at Infosys Springboard</td>
+  </tr>
+  <tr>
+    <td><b>Currently building</b></td>
+    <td><a href="https://sentinel-ai.me">Sentinel AI</a>, a live External Attack Surface Management platform</td>
+  </tr>
+  <tr>
+    <td><b>Focus</b></td>
+    <td>Clean UI/UX, performance, secure backends, practical AI integration</td>
+  </tr>
+  <tr>
+    <td><b>Location</b></td>
+    <td>Kanpur, India</td>
+  </tr>
+  <tr>
+    <td><b>Status</b></td>
+    <td><b>Open to work</b>: Software Developer, Web Developer, fresher roles</td>
+  </tr>
+</table>
 
-📩 sumit979gupta@gmail.com | 🌐 [sumitkasaudhan.in](https://www.sumitkasaudhan.in) | 💼 [LinkedIn](https://www.linkedin.com/in/sumit-kasaudhan/)
+<br/>
 
-<div align="center">
-  <img height="180" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"/>
-</div>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:155DFC&height=34&section=header&text=FLAGSHIP%20PROJECT&fontSize=15&fontColor=00D3F3&fontAlign=4&fontAlignY=55"/>
 
-###
+### Sentinel AI &nbsp;[![Live](https://img.shields.io/badge/status-live%20in%20production-00D3F3?style=flat-square&labelColor=0D1117)](https://sentinel-ai.me)
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=SumitKasaudhan&label=Profile%20Views&color=8E2DE2&style=for-the-badge"/>
-  <img src="https://img.shields.io/github/followers/SumitKasaudhan?label=Followers&style=for-the-badge&color=4A00E0"/>
-</div>
+An AI-powered **External Attack Surface Management (EASM)** B2B SaaS. It scans an organisation's public-facing assets, scores the risk and explains findings with AI. Built and maintained solo, with **real paying subscribers**.
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/sumit-kasaudhan-654401229/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="30" alt="linkedin"/>
-  </a>
-  <a href="mailto:sumit979gupta@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="30" alt="gmail"/>
-  </a>
-  <a href="https://sentinel-ai.me" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Sentinel%20AI&logo=cloudflare&label=&color=F38020&logoColor=white&labelColor=&style=for-the-badge" height="30" alt="sentinel-ai"/>
-  </a>
-</div>
+<table>
+  <tr>
+    <td width="50%" valign="top">
 
-###
+**Core capabilities**
 
-<h3 align="left">🛠 Language and Tools</h3>
+- Scanner pipeline: DNS, SSL, WHOIS, GeoIP, security headers, port scanning
+- Threat intel from VirusTotal and AbuseIPDB
+- Risk scoring engine with actionable results
+- AI Terminal with 18 Gemini intent classifiers
+- Vault for reports and scan archive, Network Shield dashboard
+- Real-time notification system, subscription billing
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="40" alt="amazonwebservices logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" height="40" alt="docker logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="40" alt="angularjs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" height="40" alt="firebase logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/blender/F5792A" height="40" alt="blender logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-plain-wordmark.svg" height="40" alt="dot-net logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/bootstrap/7952B3" height="40" alt="bootstrap logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/googlechrome/4285F4" height="40" alt="chrome logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/cloudflare/F38020" height="40" alt="cloudflare logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/c++/00599C" height="40" alt="cplusplus logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/css/1572B6" height="40" alt="css logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/discord/5865F2" height="40" alt="discord logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/django/092E20" height="40" alt="django logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/express/000000" height="40" alt="express logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/fastapi/009688" height="40" alt="fastapi logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/figma/F24E1E" height="40" alt="figma logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/flutter/02569B" height="40" alt="flutter logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/git/F05032" height="40" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/flask/000000" height="40" alt="flask logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/github/181717" height="40" alt="github logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/gitlab/FC6D26" height="40" alt="gitlab logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/google/4285F4" height="40" alt="google logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/googlecloud/4285F4" height="40" alt="googlecloud logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/html5/E34F26" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/intellijidea/000000" height="40" alt="intellijidea logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/instagram/E4405F" height="40" alt="instagram logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/javascript/F7DF1E" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/jenkins/D24939" height="40" alt="jenkins logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/jetbrains/000000" height="40" alt="jetbrains logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/jupyter/F37626" height="40" alt="jupyter logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/kaggle/20BEFF" height="40" alt="kaggle logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/kubernetes/326CE5" height="40" alt="kubernetes logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/mui/007FFF" height="40" alt="materialui logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/mongodb/47A248" height="40" alt="mongodb logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/mysql/4479A1" height="40" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/netlify/00C7B7" height="40" alt="netlify logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/nginx/009639" height="40" alt="nginx logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/nextdotjs/000000" height="40" alt="nextjs logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/nodedotjs/339933" height="40" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/notion/000000" height="40" alt="notion logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/npm/CB3837" height="40" alt="npm logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/numpy/013243" height="40" alt="numpy logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/opencv/5C3EE8" height="40" alt="opencv logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/pandas/150458" height="40" alt="pandas logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/php/777BB4" height="40" alt="php logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/postman/FF6C37" height="40" alt="postman logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/python/3776AB" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/pytorch/EE4C2C" height="40" alt="pytorch logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/pycharm/000000" height="40" alt="pycharm logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/react/61DAFB" height="40" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/replit/F26207" height="40" alt="replit logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/sqlite/003B57" height="40" alt="sqlite logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/supabase/3ECF8E" height="40" alt="supabase logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/swift/F05138" height="40" alt="swift logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" height="40" alt="tailwindcss logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/typescript/3178C6" height="40" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/vercel/000000" height="40" alt="vercel logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/vite/646CFF" height="40" alt="vite logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/wordpress/21759B" height="40" alt="wordpress logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=ai" height="40" alt="adobeillustrator logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=ps" height="40" alt="adobephotoshop logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=linkedin" height="40" alt="linkedin logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=vscode" height="40" alt="vscode logo"  />
-</div>
+  </td>
+    <td width="50%" valign="top">
 
-###
+**Engineering highlights**
 
-<h3 align="left">📊 GitHub Stats</h3>
+- Load tested with k6 at **500 concurrent users, 100% success**
+- Security hardened: IDOR, identity spoofing and SSRF issues found in audit and fixed
+- Clerk JWT auth with a secure API proxy layer
+- Enterprise dark design system with tokenised CSS
+- Responsive charts and tables across breakpoints
+- Real metrics only, audited across dashboard and telemetry
+
+  </td>
+  </tr>
+</table>
 
 <div align="center">
-  <img src="https://github-readme-stats-ochre-seven-73.vercel.app/api?username=SumitKasaudhan&show_icons=true&theme=radical&hide_border=true&hide_rank=true&cache_seconds=86400" height="165"/>
-  <img src="https://github-readme-stats-ochre-seven-73.vercel.app/api/top-langs/?username=SumitKasaudhan&layout=compact&theme=radical&hide_border=true&cache_seconds=86400" height="165"/>
+
+<img src="https://skillicons.dev/icons?i=nextjs,ts,nodejs,express,postgres,supabase,vercel&theme=dark" />
+
+<sub>Next.js 15 (Vercel) &nbsp;|&nbsp; Express + TypeScript (Render) &nbsp;|&nbsp; Supabase PostgreSQL &nbsp;|&nbsp; Clerk &nbsp;|&nbsp; Dodo Payments &nbsp;|&nbsp; Google Gemini</sub>
+
+<a href="https://sentinel-ai.me"><img src="https://img.shields.io/badge/VISIT%20SENTINEL%20AI-00D3F3?style=for-the-badge&labelColor=0D1117" height="30"/></a>
+<a href="https://github.com/SumitKasaudhan/sentinel-ai-frontend"><img src="https://img.shields.io/badge/FRONTEND%20REPO-155DFC?style=for-the-badge&labelColor=0D1117&logo=github&logoColor=white" height="30"/></a>
+
 </div>
+
+<br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:155DFC&height=34&section=header&text=MORE%20PROJECTS&fontSize=15&fontColor=00D3F3&fontAlign=4&fontAlignY=55"/>
+
+| Project | Description | Stack |
+|:--|:--|:--|
+| **ResumeIQ** | Full-stack ATS resume analyzer SaaS with weighted scoring engines, AI feedback and Redis caching | Next.js, Express, TypeScript, Supabase, Redis, Gemini |
+| **[Portfolio](https://github.com/SumitKasaudhan/portfolio)** | Personal site with smooth motion and a lightweight canvas particle background (Three.js bundle cut from 977 KB to 4.5 KB) | React, Vite, Tailwind, Framer Motion |
+| **[G-Crown E-Commerce](https://github.com/SumitKasaudhan/G-Crown-e-commerce)** | E-commerce web application | JavaScript |
+| **[AI-Powered Assistive Mobility Tool](https://github.com/SumitKasaudhan/AI-Powered-Assistive-Mobility-Tool)** | AI-based assistive mobility project | Python |
+| **[Secure Storage Frontend](https://github.com/SumitKasaudhan/secure-storage-frontend)** | Frontend for a secure storage application | JavaScript |
+
+<br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:155DFC&height=34&section=header&text=EXPERIENCE%20%26%20EDUCATION&fontSize=15&fontColor=00D3F3&fontAlign=4&fontAlignY=55"/>
+
+| Role / Program | Organisation | Area |
+|:--|:--|:--|
+| Frontend Developer Intern | Graphura India Pvt. Ltd. | Frontend development |
+| AI Web Developer Intern | Infosys Springboard Pvt. Ltd. | AI-integrated web development |
+| MCA (2024 to 2026) | Lovely Professional University | Computer Applications |
+| McKinsey.org Forward Program | McKinsey.org | Completed Dec 2025 |
+
+<br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:155DFC&height=34&section=header&text=TECH%20STACK&fontSize=15&fontColor=00D3F3&fontAlign=4&fontAlignY=55"/>
+
+<table>
+  <tr>
+    <td width="170"><b>Frontend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,css,tailwind,vite&theme=dark" /></td>
+  </tr>
+  <tr>
+    <td><b>Backend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=nodejs,express,py,fastapi&theme=dark" /></td>
+  </tr>
+  <tr>
+    <td><b>Database</b></td>
+    <td><img src="https://skillicons.dev/icons?i=postgres,mongodb,supabase,firebase&theme=dark" /></td>
+  </tr>
+  <tr>
+    <td><b>Cloud and DevOps</b></td>
+    <td><img src="https://skillicons.dev/icons?i=docker,aws,cloudflare,vercel,git,github&theme=dark" /></td>
+  </tr>
+  <tr>
+    <td><b>Tools</b></td>
+    <td><img src="https://skillicons.dev/icons?i=vscode,postman,figma&theme=dark" /></td>
+  </tr>
+</table>
+
+<br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:155DFC&height=34&section=header&text=GITHUB%20STATS&fontSize=15&fontColor=00D3F3&fontAlign=4&fontAlignY=55"/>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=SumitKasaudhan&theme=radical&hide_border=true&mode=daily" height="180"/>
+  <img src="https://github-readme-stats-ochre-seven-73.vercel.app/api?username=SumitKasaudhan&show_icons=true&hide_rank=true&bg_color=0D1117&title_color=00D3F3&text_color=C9D1D9&icon_color=155DFC&border_color=1E293B&cache_seconds=86400" height="170"/>
+  <img src="https://github-readme-stats-ochre-seven-73.vercel.app/api/top-langs/?username=SumitKasaudhan&layout=compact&bg_color=0D1117&title_color=00D3F3&text_color=C9D1D9&border_color=1E293B&cache_seconds=86400" height="170"/>
 </div>
+
+<br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/SumitKasaudhan/SumitKasaudhan/output/trophy.svg" height="110"/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SumitKasaudhan/SumitKasaudhan/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SumitKasaudhan/SumitKasaudhan/output/github-contribution-grid-snake.svg">
+  <img alt="contribution snake animation" src="https://raw.githubusercontent.com/SumitKasaudhan/SumitKasaudhan/output/github-contribution-grid-snake.svg" width="100%"/>
+</picture>
+
+<br/>
+
+### Let's build something together
+
+<a href="mailto:sumit979gupta@gmail.com"><img src="https://img.shields.io/badge/sumit979gupta@gmail.com-00B8DB?style=for-the-badge&labelColor=0D1117&logo=gmail&logoColor=00B8DB" height="30"/></a>
+<a href="https://www.sumitkasaudhan.in"><img src="https://img.shields.io/badge/sumitkasaudhan.in-155DFC?style=for-the-badge&labelColor=0D1117&logo=googlechrome&logoColor=155DFC" height="30"/></a>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0F1E,55:0B3A8F,100:00B8DB&height=110&section=footer"/>
+
 </div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SumitKasaudhan&theme=react-dark&area=true&hide_border=true" width="100%"/>
-</div>
-
-###
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=transparent&color=0:8E2DE2,100:4A00E0&height=60&section=header&text=🐍%20Live%20Contribution%20Snake&fontSize=22&fontColor=8E2DE2&animation=fadeIn"/>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SumitKasaudhan/SumitKasaudhan/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SumitKasaudhan/SumitKasaudhan/output/github-contribution-grid-snake.svg">
-    <img alt="contribution snake animation" src="https://raw.githubusercontent.com/SumitKasaudhan/SumitKasaudhan/output/github-contribution-grid-snake.gif" width="100%"/>
-  </picture>
-</div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=100&section=footer"/>
