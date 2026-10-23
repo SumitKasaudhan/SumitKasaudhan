@@ -19,9 +19,9 @@
 
 <br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:155DFC&height=34&section=header&text=ABOUT%20ME&fontSize=15&fontColor=00D3F3&fontAlign=4&fontAlignY=55"/>
+<div align="center"><img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:0B3A8F,100:0D1117&height=40&section=header&text=ABOUT%20ME&fontSize=16&fontColor=00D3F3&fontAlign=50&fontAlignY=55"/></div>
 
-<table>
+<table width="100%">
   <tr>
     <td width="170"><b>Role</b></td>
     <td>Full Stack Developer, building AI-powered SaaS products</td>
@@ -54,13 +54,13 @@
 
 <br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:155DFC&height=34&section=header&text=FLAGSHIP%20PROJECT&fontSize=15&fontColor=00D3F3&fontAlign=4&fontAlignY=55"/>
+<div align="center"><img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:0B3A8F,100:0D1117&height=40&section=header&text=FLAGSHIP%20PROJECT&fontSize=16&fontColor=00D3F3&fontAlign=50&fontAlignY=55"/></div>
 
 ### Sentinel AI &nbsp;[![Live](https://img.shields.io/badge/status-live%20in%20production-00D3F3?style=flat-square&labelColor=0D1117)](https://sentinel-ai.me)
 
 An AI-powered **External Attack Surface Management (EASM)** B2B SaaS. It scans an organisation's public-facing assets, scores the risk and explains findings with AI. Built and maintained solo, with **real paying subscribers**.
 
-<table>
+<table width="100%">
   <tr>
     <td width="50%" valign="top">
 
@@ -95,6 +95,8 @@ An AI-powered **External Attack Surface Management (EASM)** B2B SaaS. It scans a
 
 <sub>Next.js 15 (Vercel) &nbsp;|&nbsp; Express + TypeScript (Render) &nbsp;|&nbsp; Supabase PostgreSQL &nbsp;|&nbsp; Clerk &nbsp;|&nbsp; Dodo Payments &nbsp;|&nbsp; Google Gemini</sub>
 
+<br/><br/>
+
 <a href="https://sentinel-ai.me"><img src="https://img.shields.io/badge/VISIT%20SENTINEL%20AI-00D3F3?style=for-the-badge&labelColor=0D1117" height="30"/></a>
 <a href="https://github.com/SumitKasaudhan/sentinel-ai-frontend"><img src="https://img.shields.io/badge/FRONTEND%20REPO-155DFC?style=for-the-badge&labelColor=0D1117&logo=github&logoColor=white" height="30"/></a>
 
@@ -102,32 +104,78 @@ An AI-powered **External Attack Surface Management (EASM)** B2B SaaS. It scans a
 
 <br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:155DFC&height=34&section=header&text=MORE%20PROJECTS&fontSize=15&fontColor=00D3F3&fontAlign=4&fontAlignY=55"/>
+<div align="center"><img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:0B3A8F,100:0D1117&height=40&section=header&text=MORE%20PROJECTS&fontSize=16&fontColor=00D3F3&fontAlign=50&fontAlignY=55"/></div>
 
-| Project | Description | Stack |
-|:--|:--|:--|
-| **ResumeIQ** | Full-stack ATS resume analyzer SaaS with weighted scoring engines, AI feedback and Redis caching | Next.js, Express, TypeScript, Supabase, Redis, Gemini |
-| **[Portfolio](https://github.com/SumitKasaudhan/portfolio)** | Personal site with smooth motion and a lightweight canvas particle background (Three.js bundle cut from 977 KB to 4.5 KB) | React, Vite, Tailwind, Framer Motion |
-| **[G-Crown E-Commerce](https://github.com/SumitKasaudhan/G-Crown-e-commerce)** | E-commerce web application | JavaScript |
-| **[AI-Powered Assistive Mobility Tool](https://github.com/SumitKasaudhan/AI-Powered-Assistive-Mobility-Tool)** | AI-based assistive mobility project | Python |
-| **[Secure Storage Frontend](https://github.com/SumitKasaudhan/secure-storage-frontend)** | Frontend for a secure storage application | JavaScript |
+<table width="100%">
+  <tr>
+    <th align="left" width="28%">Project</th>
+    <th align="left">Description</th>
+    <th align="left" width="26%">Stack</th>
+  </tr>
+  <tr>
+    <td><b>ResumeIQ</b></td>
+    <td>Full-stack ATS resume analyzer SaaS with weighted scoring engines, AI feedback and Redis caching</td>
+    <td>Next.js, Express, TypeScript, Supabase, Redis, Gemini</td>
+  </tr>
+  <tr>
+    <td><b><a href="https://github.com/SumitKasaudhan/portfolio">Portfolio</a></b></td>
+    <td>Personal site with smooth motion and a lightweight canvas particle background (Three.js bundle cut from 977 KB to 4.5 KB)</td>
+    <td>React, Vite, Tailwind, Framer Motion</td>
+  </tr>
+  <tr>
+    <td><b><a href="https://github.com/SumitKasaudhan/G-Crown-e-commerce">G-Crown E-Commerce</a></b></td>
+    <td>E-commerce web application</td>
+    <td>JavaScript</td>
+  </tr>
+  <tr>
+    <td><b><a href="https://github.com/SumitKasaudhan/AI-Powered-Assistive-Mobility-Tool">AI Assistive Mobility Tool</a></b></td>
+    <td>AI-based assistive mobility project</td>
+    <td>Python</td>
+  </tr>
+  <tr>
+    <td><b><a href="https://github.com/SumitKasaudhan/secure-storage-frontend">Secure Storage Frontend</a></b></td>
+    <td>Frontend for a secure storage application</td>
+    <td>JavaScript</td>
+  </tr>
+</table>
 
 <br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:155DFC&height=34&section=header&text=EXPERIENCE%20%26%20EDUCATION&fontSize=15&fontColor=00D3F3&fontAlign=4&fontAlignY=55"/>
+<div align="center"><img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:0B3A8F,100:0D1117&height=40&section=header&text=EXPERIENCE&fontSize=16&fontColor=00D3F3&fontAlign=50&fontAlignY=55"/></div>
 
-| Role / Program | Organisation | Area |
-|:--|:--|:--|
-| Frontend Developer Intern | Graphura India Pvt. Ltd. | Frontend development |
-| AI Web Developer Intern | Infosys Springboard Pvt. Ltd. | AI-integrated web development |
-| MCA (2024 to 2026) | Lovely Professional University | Computer Applications |
-| McKinsey.org Forward Program | McKinsey.org | Completed Dec 2025 |
+<table width="100%">
+  <tr>
+    <th align="left" width="34%">Role / Program</th>
+    <th align="left" width="34%">Organisation</th>
+    <th align="left">Area</th>
+  </tr>
+  <tr>
+    <td>Frontend Developer Intern</td>
+    <td>Graphura India Pvt. Ltd.</td>
+    <td>Frontend development</td>
+  </tr>
+  <tr>
+    <td>AI Web Developer Intern</td>
+    <td>Infosys Springboard Pvt. Ltd.</td>
+    <td>AI-integrated web development</td>
+  </tr>
+  <tr>
+    <td>MCA (2024 to 2026)</td>
+    <td>Lovely Professional University</td>
+    <td>Computer Applications</td>
+  </tr>
+  <tr>
+    <td>McKinsey.org Forward Program</td>
+    <td>McKinsey.org</td>
+    <td>Completed Dec 2025</td>
+  </tr>
+</table>
 
 <br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:155DFC&height=34&section=header&text=TECH%20STACK&fontSize=15&fontColor=00D3F3&fontAlign=4&fontAlignY=55"/>
+<div align="center"><img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:0B3A8F,100:0D1117&height=40&section=header&text=TECH%20STACK&fontSize=16&fontColor=00D3F3&fontAlign=50&fontAlignY=55"/></div>
 
-<table>
+<table width="100%">
   <tr>
     <td width="170"><b>Frontend</b></td>
     <td><img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,css,tailwind,vite&theme=dark" /></td>
@@ -152,14 +200,16 @@ An AI-powered **External Attack Surface Management (EASM)** B2B SaaS. It scans a
 
 <br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:155DFC&height=34&section=header&text=GITHUB%20STATS&fontSize=15&fontColor=00D3F3&fontAlign=4&fontAlignY=55"/>
+<div align="center"><img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:0B3A8F,100:0D1117&height=40&section=header&text=GITHUB%20STATS&fontSize=16&fontColor=00D3F3&fontAlign=50&fontAlignY=55"/></div>
 
 <div align="center">
-  <img src="https://github-readme-stats-ochre-seven-73.vercel.app/api?username=SumitKasaudhan&show_icons=true&hide_rank=true&bg_color=0D1117&title_color=00D3F3&text_color=C9D1D9&icon_color=155DFC&border_color=1E293B&cache_seconds=86400" height="170"/>
-  <img src="https://github-readme-stats-ochre-seven-73.vercel.app/api/top-langs/?username=SumitKasaudhan&layout=compact&bg_color=0D1117&title_color=00D3F3&text_color=C9D1D9&border_color=1E293B&cache_seconds=86400" height="170"/>
+  <img src="https://github-readme-stats-ochre-seven-73.vercel.app/api?username=SumitKasaudhan&show_icons=true&hide_rank=true&card_width=495&bg_color=0D1117&title_color=00D3F3&text_color=C9D1D9&icon_color=155DFC&border_color=1E293B&cache_seconds=86400" width="49%"/>
+  <img src="https://github-readme-stats-ochre-seven-73.vercel.app/api/top-langs/?username=SumitKasaudhan&layout=compact&card_width=495&bg_color=0D1117&title_color=00D3F3&text_color=C9D1D9&border_color=1E293B&cache_seconds=86400" width="49%"/>
 </div>
 
 <br/>
+
+<div align="center"><img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:0B3A8F,100:0D1117&height=40&section=header&text=CONTRIBUTIONS&fontSize=16&fontColor=00D3F3&fontAlign=50&fontAlignY=55"/></div>
 
 <div align="center">
 
@@ -169,7 +219,7 @@ An AI-powered **External Attack Surface Management (EASM)** B2B SaaS. It scans a
   <img alt="contribution snake animation" src="https://raw.githubusercontent.com/SumitKasaudhan/SumitKasaudhan/output/github-contribution-grid-snake.svg" width="100%"/>
 </picture>
 
-<br/>
+<br/><br/>
 
 ### Let's build something together
 
