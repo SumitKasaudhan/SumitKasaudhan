@@ -286,11 +286,6 @@ An AI-powered **External Attack Surface Management (EASM)** B2B SaaS. It scans a
 <img src="https://img.shields.io/badge/SDLC-155DFC?style=for-the-badge&labelColor=0D1117"/>
 <img src="https://img.shields.io/badge/Debugging-155DFC?style=for-the-badge&labelColor=0D1117"/>
 
-<br/><br/>
-
-**Soft Skills**
-
-<sub>Communication &nbsp;|&nbsp; Teamwork &nbsp;|&nbsp; Problem Solving &nbsp;|&nbsp; Adaptability &nbsp;|&nbsp; Time Management &nbsp;|&nbsp; Ownership &nbsp;|&nbsp; Attention to Detail &nbsp;|&nbsp; Critical Thinking</sub>
 
 </div>
 
@@ -309,7 +304,7 @@ An AI-powered **External Attack Surface Management (EASM)** B2B SaaS. It scans a
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=SumitKasaudhan&bg_color=0D1117&color=00D3F3&line=155DFC&point=FFFFFF&area=true&area_color=0B3A8F&hide_border=true&radius=8&title_color=00D3F3" width="100%" alt="GitHub contribution activity graph"/>
+<a href="https://github.com/SumitKasaudhan"><img src="https://ghchart.rshah.org/00D3F3/SumitKasaudhan" width="100%" alt="GitHub contribution graph"/></a>
 
 <br/><br/>
 
